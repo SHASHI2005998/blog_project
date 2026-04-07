@@ -15,7 +15,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY', 'unsafe-secret-key')
 
 DEBUG = os.environ.get('DEBUG', 'False') == 'True'
 
-ALLOWED_HOSTS = ['*']   # later replace with your render URL
+ALLOWED_HOSTS = ['blog-project-zy5y.onrender.com']   # later replace with your render URL
 
 
 # ========================
